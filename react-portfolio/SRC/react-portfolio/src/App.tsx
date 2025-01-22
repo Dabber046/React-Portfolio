@@ -2,13 +2,13 @@ import React from "react";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import AboutMe from "./pages/Aboutme";
-import Portfolio from "./pages/portfolio";
-import Contact from "./components/Contact";
-import Resume from "./pages/Resume";
-import Footer from "./components/Footer";
+import AboutMe from "./pages/AboutMe"; 
+import Portfolio from "./pages/Portfolio"; 
+import Contact from "./components/Contact"; 
+import Resume from "./pages/Resume"; 
+import Footer from "./components/Footer"; 
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import viteLogo from "./assets/vite.svg"; 
 import "./App.css";
 
 const App: React.FC = () => {
@@ -27,10 +27,10 @@ const App: React.FC = () => {
             <Route path="/" element={<AboutMe />} />
           </Routes>
           <div>
-            <a href="https://vite.dev" target="_blank">
+            <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
               <img src={viteLogo} className="logo" alt="Vite logo" />
             </a>
-            <a href="https://react.dev" target="_blank">
+            <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
               <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
           </div>
@@ -54,4 +54,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
