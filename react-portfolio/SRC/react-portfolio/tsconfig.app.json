@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "components/Aboutme.jsx", "components/Resume.jsx", "components/footer.jsx", "components/portfolio.jsx", "components/Header.jsx"]
+  "include": ["src", "src/components/Aboutme.jsx", "src/components/Resume.jsx", "src/components/footer.jsx", "src/components/portfolio.jsx", "src/components/Header.jsx"]
 }
